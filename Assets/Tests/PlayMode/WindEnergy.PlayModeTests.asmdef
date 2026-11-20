@@ -1,0 +1,8 @@
+{
+  "name": "WindEnergy.PlayModeTests",
+  "rootNamespace": "WindEnergy.Tests.PlayMode",
+  "references": ["WindEnergy.Runtime", "Unity.ugui", "Unity.TextMeshPro", "Unity.InputSystem", "Unity.XR.ARFoundation", "Unity.XR.ARSubsystems"],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

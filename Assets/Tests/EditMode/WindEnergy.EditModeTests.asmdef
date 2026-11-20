@@ -1,0 +1,22 @@
+{
+  "name": "WindEnergy.EditModeTests",
+  "rootNamespace": "WindEnergy.Tests.EditMode",
+  "references": [
+    "WindEnergy.Runtime",
+    "Unity.ugui",
+    "Unity.XR.ARFoundation",
+    "Unity.XR.ARSubsystems",
+    "Unity.XR.CoreUtils",
+    "Unity.XR.Management",
+    "Unity.XR.Management.Editor",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

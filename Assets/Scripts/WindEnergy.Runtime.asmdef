@@ -1,0 +1,5 @@
+{
+  "name": "WindEnergy.Runtime",
+  "rootNamespace": "WindEnergy",
+  "references": ["Unity.XR.ARFoundation", "Unity.XR.ARSubsystems", "Unity.XR.CoreUtils", "Unity.ugui", "Unity.TextMeshPro", "Unity.InputSystem"]
+}

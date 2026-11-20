@@ -1,0 +1,56 @@
+# Source-only repository: new root-level items require an explicit exception.
+/*
+!/.gitignore
+!/README.md
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+
+# Unity-generated local state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE-generated files
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+._*
+
+# Local credentials and signing/distribution outputs
+.env
+.env.*
+*.pem
+*.key
+*.p8
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.mobileprovision
+*.ipa
+*.xcarchive/
+*.xcuserstate
+xcuserdata/
+
+# Build-generated symbol backups
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
